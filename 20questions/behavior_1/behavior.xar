@@ -7456,7 +7456,7 @@ class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self, False)
         try:
-            self.asr = None#ALProxy("ALSpeechRecognition")
+            self.asr = ALProxy("ALSpeechRecognition")
         except Exception as e:
             self.asr = None
             self.logger.error(e)
