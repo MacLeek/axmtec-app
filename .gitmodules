@@ -1,0 +1,3 @@
+[submodule "Nao_Imitation"]
+	path = Nao_Imitation
+	url = https://github.com/MacLeek/Nao_Imitation.git
